@@ -1,0 +1,23 @@
+.blog-page-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-content {
+    justify-content: center;
+    width: 30%;
+}
+
+.side-content .sidebar-split {
+    border: none;
+    border-top: 1px grey solid;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 256px;
+}
+
+.similar-topics-div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 256px;
+}

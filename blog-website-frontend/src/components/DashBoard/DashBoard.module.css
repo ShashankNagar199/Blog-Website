@@ -1,0 +1,12 @@
+.dashboardContent {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .dashboardContent {
+        display: block;
+    }
+}

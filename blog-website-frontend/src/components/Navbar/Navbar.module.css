@@ -1,0 +1,68 @@
+.navbar {
+    position: relative;
+    /*background-color: rgba(241, 220, 220, 0.63);*/
+    display: flex;
+    padding: 2rem 3rem;
+    /*background-color: white;*/
+}
+
+.auth-links {
+    text-decoration: none;
+    color: black;
+}
+
+.profile_pic {
+    width: 36px;
+    height: 36px;
+    background-color: black;
+    border-radius: 36px;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+
+.nav_username {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+
+.company-logo {
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0;
+}
+
+.login {
+    display: inline;
+    margin: 0;
+}
+
+.signup {
+    display: inline;
+    margin: 0;
+    margin-left: 3rem;
+}
+
+.authenticate {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
+.logout {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+}

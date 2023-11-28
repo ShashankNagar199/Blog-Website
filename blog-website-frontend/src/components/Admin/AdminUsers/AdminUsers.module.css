@@ -1,0 +1,26 @@
+.admin-user-container {
+    padding: 1rem 3rem;
+}
+
+.filter-user {
+    width: 50%;
+    height: 45px;
+    border-radius: 45px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid gray;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.section-head {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.section-heading {
+    margin-top: auto;
+    margin-bottom: auto;
+}

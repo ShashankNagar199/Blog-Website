@@ -1,0 +1,42 @@
+.all-blogs-container {
+    margin-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.all-blogs-filter-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.filter-blogs {
+    display: flex;
+}
+
+.filter-head {
+    margin: 0;
+}
+
+.filter-p {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    font-size: 1.25rem;   
+}
+
+.no-blogs {
+    text-align: center;
+    margin-top: 10%;
+    width: 70%;
+    font-weight: 700;
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.blog-list {
+    width: 70%;
+    list-style: none;
+    padding-left: 0;
+}

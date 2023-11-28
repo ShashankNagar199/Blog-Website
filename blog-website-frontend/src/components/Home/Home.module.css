@@ -1,0 +1,75 @@
+.mainContent {
+    display: flex;
+    margin-top: 10vh;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    justify-content: space-between;
+}
+
+.left-row {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.heading {
+    font-size: 2.9rem;
+    margin: 0;
+    margin-bottom: 1.75rem;
+}
+
+.eyecatch {
+    color: rgb(107, 107, 243);
+}
+
+.auth-buttons {
+    display: inline;
+}
+
+.login-btn, .signup-btn {
+    width: 140px;
+    height: 55px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.login-btn {
+    background-color: rgb(107, 107, 243);
+    color: white;
+    border: none;
+}
+
+.signup-btn {
+    background-color: white;
+    color: rgb(107, 107, 243);
+    border-color: rgb(107, 107, 243);
+    border-style: solid;
+    margin-left: 1rem;
+}
+
+.login-btn:hover {
+    background-color: rgb(82, 82, 211);
+}
+
+.signup-btn:hover {
+    background-color: rgb(107, 107, 243);
+    color: white;
+}
+
+.welcome-img {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media screen and (max-width: 760px) {
+    .mainContent {
+        display: block;
+        text-align: center;
+    }
+
+    .welcome-img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

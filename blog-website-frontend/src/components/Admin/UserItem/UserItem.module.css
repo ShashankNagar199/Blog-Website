@@ -1,0 +1,17 @@
+.user-item-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.delete-user-btn, .username {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.delete-user-btn {
+    width: 120px;
+    height: 60px;
+    border-radius: 60px;
+    border: none;
+}

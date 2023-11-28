@@ -1,0 +1,18 @@
+.blog-intro-heading {
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.blog-intro-heading:hover {
+    text-decoration: underline;
+}
+
+.blog-intro-para {
+    font-size: 1.25rem;
+}
+
+.blog-intro-see-more {
+    cursor: pointer;
+    color: blue;
+    font-size: 1.25rem;
+}

@@ -1,0 +1,59 @@
+.community-section {
+    margin-top: 5vh;
+    width: 60%;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.5rem;
+}
+
+.section-heading {
+    font-size: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.no-blogs {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 1.5rem;
+    color: gray;
+    font-weight: 700;
+}
+
+.section-explore-more {
+    margin-top: auto;
+    margin-bottom: auto;   
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.community-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.post-divider {
+    border-style: solid;
+    border-top: 1px solid grey;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .community-section {
+        width: 100%;
+    }
+
+    .section-heading {
+        font-size: 1.75rem;
+    }
+
+    .section-explore-more {
+        font-size: 1.1rem;
+    }
+}

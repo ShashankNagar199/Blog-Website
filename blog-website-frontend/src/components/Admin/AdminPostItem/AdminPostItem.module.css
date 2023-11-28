@@ -1,0 +1,34 @@
+.post-item-card {
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+
+.action-btns {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.publish-btn, .delete-btn {
+    background-color: rgb(107, 107, 243);
+    transition: 0.3s;
+    border: none;
+    margin-right: 0.5rem;
+    color: white;
+    width: 120px;
+    height: 60px;
+    border-radius: 60px;
+}
+
+.approved-btn {
+    display: inline-block;
+    margin-right: 1rem;
+    width: 120px;
+    height: 60px;
+    border-radius: 60px;
+    border: none;
+}
+
+.publish-btn:hover, .delete-btn:hover {
+    background-color: rgb(82, 82, 211);
+}

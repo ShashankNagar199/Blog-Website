@@ -1,0 +1,67 @@
+.profile-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.profile-header {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.userdata {
+    font-weight: normal;
+    margin-left: 4rem;
+}
+
+.profile-card {
+    margin-top: 2rem;
+    display: flex;
+    width: 80%;
+}
+
+.profile-left-row, .profile-details-container {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.username {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 2px solid black;
+    background-color: black;
+}
+
+.no-posts {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.profile-header h1, .profile-header p {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.profile-header p {
+    font-size: 1.25rem;
+}
+
+.profile-details-container {
+    margin-left: 6rem;
+    height: 200px;
+}
+
+.posts-section {
+    margin-top: 5rem;
+}
+
+.post-separator {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,19 @@
+.comment-person-container {
+    display: flex;
+}
+
+.comment-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+}
+
+.comment-username {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1rem;
+}
+
+.comment-content {
+    margin-bottom: 2rem;
+}

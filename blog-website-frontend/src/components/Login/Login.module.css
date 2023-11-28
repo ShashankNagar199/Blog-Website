@@ -1,0 +1,101 @@
+.form-container {
+    text-align: center;
+    display: inline-block;
+    border-radius: 8px;
+    width: 30vw;
+    margin-top: 12vh;
+    margin-left: 35vw;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2rem;
+}
+
+.form-head {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.form-control {
+    margin-top: 2rem;
+    position: relative;
+}
+
+.form-control input {
+    border-radius: 20px;
+    border: 1px solid;
+    width: 90%;
+    font-size: 1.25rem;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.form-control label {
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-left: 10px;
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+}
+
+.form-control button {
+    width: 100%;
+    height: 55px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    transition: 0.3s;
+    background-color: rgb(107, 107, 243);
+    color: white;
+    border: none;
+    margin-top: 2.5rem;
+}
+
+.form-control button:hover {
+    background-color: rgb(82, 82, 211);
+}
+
+.no-user-error-para {
+    color: red;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.secondInput {
+    margin-top: 20px;
+}
+
+#gender {
+    width: 100%;
+    display: inline-block;
+}
+
+.selector {
+    width: 98%;
+    padding: 1rem;
+    border-radius: 20px;
+    font-size: 1.25rem;
+}
+
+.user-exists {
+    color: red;
+    text-align: center;
+    font-weight: 700;
+}
+
+.invalid-input {
+    color: red;
+    font-weight: 700;
+    float: right;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 760px) {
+    .form-container {
+        width: 90%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

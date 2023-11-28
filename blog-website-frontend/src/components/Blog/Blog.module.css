@@ -1,0 +1,55 @@
+.blog-content {
+    padding-top: 2rem;
+    padding-left: 3rem;
+    width: 60%;
+}
+
+.blog-title {
+    font-size: 2.75rem;
+}
+
+.blog-description {
+    font-size: 1.5rem;
+}
+
+.blog-body {
+    font-size: 1.5rem;
+}
+
+.blog-image {
+    width: 100%;
+}
+
+.add-comment-btn, .disable-btn {
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+}
+
+.add-comment-btn {
+    transition: 0.2s;
+    background-color: blue;
+    color: white;
+}
+
+.comment-section {
+    margin-top: 5rem;
+}
+
+.comment-input {
+    height: 30px;
+    width: 60%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+}
+
+.disable-btn {
+    transition: 0.2s;
+    background-color: rgb(207, 193, 193);
+    color: black;
+}

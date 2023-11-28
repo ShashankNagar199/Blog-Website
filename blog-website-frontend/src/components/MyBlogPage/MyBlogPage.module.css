@@ -1,0 +1,49 @@
+.my-blog-page-container {
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+.width-30 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.5rem;
+}
+
+.create-post-btn, .edit-post-btn {
+    width: 60%;
+    height: 60px;
+    border-radius: 60px;
+    font-size: 0.9rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.edit-post-btn {
+    background-color: white;
+    transition: 0.3s;
+    border: 2px rgb(107, 107, 243) solid;
+    color: rgb(107, 107, 243);
+}
+
+.create-post-btn {
+    background-color: rgb(107, 107, 243);
+    transition: 0.3s;
+    border: none;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.edit-post-btn:hover {
+    background-color: rgb(107, 107, 243);
+    color: white;
+}
+
+.create-post-btn:hover {
+    background-color: rgb(82, 82, 211);
+}

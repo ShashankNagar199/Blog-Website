@@ -1,0 +1,39 @@
+.center {
+    text-align: center;
+}
+
+.create-post-btn, .view-profile-btn {
+    width: 120px;
+    height: 60px;
+    border-radius: 60px;
+    font-size: 0.9rem;
+}
+
+.view-profile-btn {
+    background-color: white;
+    transition: 0.3s;
+    border: 2px rgb(107, 107, 243) solid;    
+    margin-right: 0.5rem;
+    color: rgb(107, 107, 243);;
+}
+
+.create-post-btn {
+    background-color: rgb(107, 107, 243);
+    transition: 0.3s;
+    border: none;
+    margin-left: 0.5rem;
+    color: white;
+}
+
+.view-profile-btn:hover {
+    background-color: rgb(107, 107, 243);
+    color: white;
+}
+
+.create-post-btn:hover {
+    background-color: rgb(82, 82, 211);
+}
+
+.username {
+    margin-top: 37px;
+}
